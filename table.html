@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+
+<body>
+    <div class="table1">
+        <table>
+            <colgroup>
+                <col span="2" style="background-color: aqua;">
+                <col span="1" style="background-color: pink;">
+                <col span="2" style="background-color: yellow">
+                <col span="1" style="background-color: blue">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th rowspan="2">S.N</th>
+                    <th rowspan="2">Name</th>
+                    <th colspan="2">Marks</th>
+                    <th rowspan="2">Total</th>
+                    <th rowspan="2">Remarks</th>
+                </tr>
+                <tr>
+                    <th>Th</th>
+                    <th>Pr</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2</td>
+                    <td>Nepali</td>
+                    <td>50</td>
+                    <td>45</td>
+                    <td>dsgs</td>
+                    <td>sdgs</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Maths</td>
+                    <td>40</td>
+                    <td>40</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Social</td>
+                    <td>40</td>
+                    <td>40</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Science</td>
+                    <td>50</td>
+                    <td>40</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+
+            <!-- <tfoot>
+            <tr>
+                <th rowspan="2">S.N</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Marks</th>
+                <th rowspan="2">Total</th>
+                <th rowspan="2">Remarks</th>
+            </tr>
+        </tfoot> -->
+
+        </table>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+note
+Break point
+
+extra small devices: 480px
+small devices: 600px
+tap : 768px
+laptop: 992px
+desktop: 1200px
+large device: 1400px
+
+
+2D
+
+transform: translate(20px 40px);
+transform: translateX(20px);
+transform: translateY(20px);
+where 20px is x-axis value and 40 is a y axis value
+transform: rotate(50deg);
+transform: scale(1,2);
+transform: scaleX(1);
+transform: scaleY(2);
+transform: skew(45deg);
+
+3D
+transform: rotate(50deg);
+transform: rotateX(50deg);
+transform: rotateY(50deg);
+transform: rotateZ(50deg);
+transform: rotate3D(50deg);
+
+
+Transition
+transition:2s;
+transition-delay:2s;
+transition-timing-function:ease | ease-in | ease-out | ease-in-out;
+
+
+
+
+Animation
+animation-name:example;
+animation-duration:2s;
+animation-delay:2s;
+animation-iterate-count:2 | infinite;
+animation-direction: alternative | reverse ;
+
+@keyframe animationName {
+    0%{
+
+    }
+    50%{
+
+    }
+    100%{
+        
+    }
+}
